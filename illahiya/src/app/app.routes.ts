@@ -4,6 +4,5 @@ import { Dashboard } from './dashboard/dashboard';
 
 export const routes: Routes = [
     { path: 'teacherDetails', component: TeacherDetails },
-
     {path: '', component: Dashboard }
 ];

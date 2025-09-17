@@ -1,28 +1,30 @@
 <div class="teacherDetails">
-    <div class="teacher">
-        <h1>Teacher details</h1>
-        <p>9/11/2025</p>
+  <div class="teacher">
+    <h1>Teacher Details</h1>
+    <p>{{ teacherForm.value.date_of_joining }}</p>
+  </div>
+
+  <div class="teacher-inputs" [formGroup]="teacherForm">
+    <div class="fields">
+      <label>Teacher ID</label>
+      <input type="text" formControlName="teacher_id" />
     </div>
-    <div class="teacher-inputs">
-        <div class="fields">
-            <label>Teacher ID</label>
-            <input type="text"/>
-        </div>
-        <div class="fields">
-            <label>Teacher Name</label>
-            <input type="text"/>
-        </div>
-        <div class="fields">
-            <label>Date of joining</label>
-            <input type="date"/>
-        </div>
+    <div class="fields">
+      <label>Teacher Name</label>
+      <input type="text" formControlName="teacher_name" />
     </div>
-    <div class="tools">
-        <button>Prev</button>
-        <button>Next</button>
-        <button>Edit</button>
-        <button>Add</button>
-        <button>Find</button>
-        <button>Delete</button>
+    <div class="fields">
+      <label>Date of joining</label>
+      <input type="date" formControlName="date_of_joining" />
     </div>
+  </div>
+
+  <div class="tools">
+    <button type="button" (click)="prev()">Prev</button>
+    <button type="button" (click)="next()">Next</button>
+    <button type="button" (click)="edit()">Edit</button>
+    <button type="button" (click)="add()">Add</button>
+    <button type="button" (click)="find()">Find</button>
+    <button type="button" (click)="delete()">Delete</button>
+  </div>
 </div>
