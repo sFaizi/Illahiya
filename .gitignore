@@ -1,0 +1,67 @@
+# ----------------------------
+# Laravel
+# ----------------------------
+backend/vendor/
+backend/node_modules/
+backend/public/storage
+backend/storage/*.key
+backend/.env
+backend/.env.backup
+backend/.env.*.backup
+backend/Homestead.yaml
+backend/Homestead.json
+backend/.idea
+backend/.vscode
+backend/.phpunit.result.cache
+backend/.phpstorm.meta.php
+backend/composer.lock
+backend/npm-debug.log
+backend/yarn-error.log
+backend/.phpunit.cache
+backend/.php-cs-fixer.cache
+
+# Laravel logs
+backend/storage/logs/*.log
+backend/storage/logs/*.gz
+
+# ----------------------------
+# Angular
+# ----------------------------
+illahiya/node_modules/
+illahiya/dist/
+illahiya/tmp/
+illahiya/out-tsc
+illahiya/.angular/cache
+illahiya/.angular/*
+illahiya/.angular
+
+# Angular testing
+illahiya/coverage
+
+# Angular IDE configs
+illahiya/.idea
+illahiya/.vscode
+illahiya/*.suo
+illahiya/*.ntvs*
+illahiya/*.njsproj
+illahiya/*.sln
+illahiya/*.sw?
+
+# ----------------------------
+# General OS / Editor
+# ----------------------------
+illahiya/.DS_Store
+illahiya/Thumbs.db
+illahiya/desktop.ini
+
+# ----------------------------
+# Logs
+# ----------------------------
+illahiya/*.log
+
+# ----------------------------
+# Optional lock files (if you don’t want to track them)
+# ----------------------------
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

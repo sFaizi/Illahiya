@@ -1,0 +1,46 @@
+.teacherDetails{
+}
+.teacher{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #9abaff;
+}
+.teacher-inputs{
+    display: flex;
+    place-self: center;
+    flex-direction: column;
+    padding: 80px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px rgb(119, 119, 119);
+    border-radius: 8px;
+}
+.fields{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.fields input{
+    padding: 5px 10px;
+    border: 1px solid rgb(126, 154, 163);
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fields label{
+    color: rgb(58, 58, 58);
+}
+.tools{
+    display: flex;
+    place-self: center;
+    gap: 10px;
+}
+.tools button{
+    padding: 10px 15px;
+    background-color: rgb(173, 173, 184);
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: rgb(54, 50, 47);
+}
