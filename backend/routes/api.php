@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Api\TeachersDetailsController;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\TeacherDetailsController;
 
-Route::apiResource('teacherDetails', TeachersDetailsController::class);
-    
+Route::apiResource('teacherDetails', TeacherDetailsController::class);
