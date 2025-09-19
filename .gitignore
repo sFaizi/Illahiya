@@ -53,7 +53,8 @@ illahiya/*.sw?
 illahiya/.DS_Store
 illahiya/Thumbs.db
 illahiya/desktop.ini
-
+.accdb
+.laccdb
 # ----------------------------
 # Logs
 # ----------------------------
